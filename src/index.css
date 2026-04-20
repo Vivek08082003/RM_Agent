@@ -217,10 +217,10 @@ body { margin:0; font-family: Arial, sans-serif; background:#e8eaed; }
 .mt-ai-title { color:#fff; font-size:13px; font-weight:700; display:flex; align-items:center; gap:8px; }
 .mt-ai-badge { background:rgba(255,255,255,.2); color:#fff; font-size:10px; padding:2px 7px; border-radius:10px; font-weight:600; border:1px solid rgba(255,255,255,.3); }
 .mt-ai-close { background:rgba(255,255,255,.15); border:none; color:#fff; cursor:pointer; border-radius:50%; width:22px; height:22px; display:flex; align-items:center; justify-content:center; font-size:13px; }
-.mt-ai-stepbar { display:flex; padding:7px 12px; background:#fff; border-bottom:1px solid #e0e6f0; flex-shrink:0; }
-.mt-ai-step { flex:1; text-align:center; font-size:10px; font-weight:600; color:#bbb; padding-bottom:5px; border-bottom:2px solid #e0e0e0; letter-spacing:.3px; }
+.mt-ai-stepbar { display:flex; padding:0; background:#fff; border-bottom:1px solid #e0e6f0; flex-shrink:0; }
+.mt-ai-step { flex:1; text-align:center; font-size:13px; font-weight:600; color:#999; padding:12px 0 10px; border-bottom:3px solid transparent; letter-spacing:.3px; transition:all .2s; }
 .mt-ai-step.done   { color:#2e7d32; border-bottom-color:#4caf50; }
-.mt-ai-step.active { color:#1565c0; border-bottom-color:#1565c0; }
+.mt-ai-step.active { color:#1565c0; border-bottom-color:#1565c0; font-weight:700; }
 .mt-ai-body { flex:1; overflow-y:auto; }
 .mt-ai-body::-webkit-scrollbar { width:5px; }
 .mt-ai-body::-webkit-scrollbar-thumb { background:#c0c8d8; border-radius:3px; }

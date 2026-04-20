@@ -1,0 +1,89 @@
+{
+  "intentChips": [
+    { "label": "💰 $72–85M Funding", "cls": "ic-blue" },
+    { "label": "🏗️ Capex Expansion", "cls": "ic-purple" },
+    { "label": "🔄 Revolving Credit", "cls": "ic-orange" },
+    { "label": "📋 Federal Contract", "cls": "ic-green" },
+    { "label": "⏰ June 2026 Deadline", "cls": "ic-red" },
+    { "label": "💱 FX Hedging", "cls": "ic-teal" },
+    { "label": "🏦 CMS Interest", "cls": "ic-yellow" },
+    { "label": "📅 Friday Credit Meet", "cls": "ic-green" }
+  ],
+  "sentiment": {
+    "score": 85,
+    "label": "Positive", 
+    "max": 100
+  },
+  "signals": [
+    { "color": "#c62828", "cat": "Urgency", "text": "June 2026 disbursement deadline — Federal contract commencement locked" },
+    { "color": "#2e7d32", "cat": "Revenue Assurance", "text": "$180M Federal contract; 65% Federal/Municipal revenue — strong repayment visibility" },
+    { "color": "#1565c0", "cat": "Cross-Sell — FX Hedging", "text": "EUR/JPY imports $8–10M p.a.; explicitly requested structured hedging facility" },
+    { "color": "#f57f17", "cat": "Cross-Sell — CMS", "text": "Confirmed interest in Cash Management Services; 45-day Federal billing cycle — high suitability" },
+    { "color": "#2e7d32", "cat": "Next Action Confirmed", "text": "Credit meeting booked — Friday, 11 AM with RM + CFO Mr. David Walsh" }
+  ],
+  "extractedGroups": [
+    {
+      "title": "📞 Call Details",
+      "fields": [
+        { "field": "Duration", "val": "5m 12s", "conf": "✓" },
+        { "field": "Spoken To", "val": "Mr. James Hargrove, President & CEO", "conf": "✓" },
+        { "field": "Existing Banking", "val": "Multiple — Wells Fargo + JPMorgan Chase", "conf": "✓" },
+        { "field": "Existing Exposure", "val": "$42M (Rev. LOC $22M + Term Loan $20M)", "conf": "✓" }
+      ]
+    },
+    {
+      "title": "📅 Action / Follow Up",
+      "fields": [
+        { "field": "Next Action", "val": "Meeting", "valBold": true, "extra": " — Credit discussion", "conf": "✓ AI", "confCls": "mt-conf-blue" },
+        { "field": "Follow Up Date", "val": "03/28/2026 (Friday, 11:00 AM)", "valBold": true, "conf": "✓ AI", "confCls": "mt-conf-blue" },
+        { "field": "Immediate F/U Required", "val": "Yes", "valBold": true, "extra": " — June deadline, document checklist to be sent today", "conf": "✓ AI", "confCls": "mt-conf-blue" },
+        { "field": "Next Steps", "val": "1. Send document checklist today · 2. Credit meeting Fri 11 AM with CFO Mr. David Walsh · 3. Propose FX hedging + CMS alongside term sheet", "conf": "✓ AI", "confCls": "mt-conf-blue" }
+      ]
+    },
+    {
+      "title": "💡 Cross-Sell Opportunities",
+      "fields": [
+        { "field": "FX Hedging", "val": "Treasury Dept · EUR/JPY · $8–10M p.a. imports · Borrower explicitly requested", "conf": "✓ AI", "confCls": "mt-conf-orange" },
+        { "field": "Cash Mgmt. Services", "val": "Transaction Banking · 45-day Federal billing cycle · Borrower confirmed interest", "conf": "✓ AI", "confCls": "mt-conf-orange" }
+      ]
+    },
+    {
+      "title": "🧠 Borrower Intelligence",
+      "fields": [
+        { "field": "Promoter Background", "val": "2nd gen; MBA Wharton; est. 1987; 60+ infrastructure projects in TX & AZ", "conf": "✓" },
+        { "field": "Future Capex", "val": "Phoenix Phase 2 (2029); FHWA highway bids; Rev target $600M by 2029", "conf": "✓" },
+        { "field": "Import / Export", "val": "Imports $8–10M p.a. (DE & JP machinery, EUR/JPY); No exports", "conf": "✓" },
+        { "field": "Distribution", "val": "Direct-to-client; 65% Federal/Municipal (FHWA, TxDOT, Army Corps); 35% private", "conf": "✓" },
+        { "field": "Associate / Subsidiary", "val": "Hargrove Holdings LLC (promoter HoldCo); HG-Constructors JV 51% (Phoenix, ring-fenced)", "conf": "✓" }
+      ]
+    }
+  ],
+  "summary": "RM spoke with <strong>Mr. James Hargrove</strong> (President &amp; CEO, Hargrove Construction Inc.) to formally initiate credit assessment for a combined facility of <strong>$72–85M</strong> ($40–50M term loan capex, $18–20M equipment financing, $15M revolving line of credit). Austin, TX site lease signed — 12 acres. Existing banking: Wells Fargo + JPMorgan Chase ($42M total, clean). Disbursement deadline: <strong>June 2026</strong>.<br /><br /><strong>Cross-sell confirmed:</strong> Borrower explicitly requested a structured <strong>FX hedging facility</strong> (EUR/JPY, $8–10M p.a.) and expressed clear interest in <strong>Cash Management Services</strong> for Federal billing cycle optimisation.<br /><br /><strong>Next action agreed:</strong> Credit meeting <strong>Friday March 28, 11 AM</strong> — RM + CFO Mr. David Walsh. Document checklist to be sent same day. Recommend expedited credit evaluation with FX hedging and CMS proposals included in term sheet package.",
+  "transcript": [
+    { "time": "00:00", "speaker": "RM", "text": "Good afternoon Mr. Hargrove, Michael Chen here from the Commercial Banking team. Thanks for your time today. I wanted to follow up on the Austin facility expansion and formally kick off the credit assessment." },
+    { "time": "00:17", "speaker": "Borrower", "text": "Good afternoon. Perfect timing — we just executed the ground lease yesterday. <span class=\"hl\">12 acres in Austin, TX</span>. We're ready to move forward." },
+    { "time": "00:32", "speaker": "RM", "text": "Excellent. Walk me through the complete financing requirement please." },
+    { "time": "00:39", "speaker": "Borrower", "text": "Civil construction and site development is <span class=\"hl\">$40–50M</span>. Equipment procurement for the precast machinery is another <span class=\"hl\">$18–20M</span>. We'll need a <span class=\"hl\">revolving line of credit of $15M</span> to manage the ramp-up period. All in, we're looking at roughly <span class=\"hl\">$72–85M</span>." },
+    { "time": "01:06", "speaker": "RM", "text": "Understood. And your existing banking — are you with a single lender or multiple?" },
+    { "time": "01:11", "speaker": "Borrower", "text": "<span class=\"hl\">Multiple banks</span>. <span class=\"hl\">Wells Fargo holds our revolving line of credit at $22M</span>, and <span class=\"hl\">JPMorgan Chase has a term loan of $20M</span> maturing next year. Total existing exposure is about <span class=\"hl\">$42M</span>. We have a clean repayment record on both." },
+    { "time": "01:38", "speaker": "RM", "text": "Good to hear. Can you give me a brief background on the company's founding and your leadership history?" },
+    { "time": "01:44", "speaker": "Borrower", "text": "My father started the company in 1987 as a general contractor. We moved into full infrastructure and heavy civil by 2004. <span class=\"hl\">I came on board in 2012 — MBA from Wharton</span>. We've completed <span class=\"hl\">60+ infrastructure projects</span> across Texas and Arizona. It's a family-owned enterprise — no other business interests." },
+    { "time": "02:10", "speaker": "RM", "text": "Strong track record. What are your capital plans beyond the Austin facility?" },
+    { "time": "02:15", "speaker": "Borrower", "text": "Austin is Phase 1 — target commissioning Q3 2027. Phase 2 is a <span class=\"hl\">second precast facility in Phoenix, Arizona in 24–30 months</span>. We're also bidding on FHWA highway projects — that could require <span class=\"hl\">$25–30M additional equipment</span> if we win. We're projecting <span class=\"hl\">revenues of $600M by 2029</span>." },
+    { "time": "02:44", "speaker": "RM", "text": "That's strong growth. Any foreign currency exposure we should know about?" },
+    { "time": "02:49", "speaker": "Borrower", "text": "Yes — we import <span class=\"hl\">specialized machinery components from Germany and Japan, around $8–10M annually in EUR and JPY</span>. We've been hedging on an ad-hoc basis through JPMorgan. We'd really welcome a <span class=\"hl-blue\">structured FX hedging program</span> — it's something we've been wanting to formalize." },
+    { "time": "03:12", "speaker": "RM", "text": "Absolutely — our Treasury desk can build that out. Also, given your Federal contract receivables, have you considered a formal <span class=\"hl-blue\">Cash Management Services arrangement</span>? It would centralize collections and give you much better working capital visibility." },
+    { "time": "03:28", "speaker": "Borrower", "text": "That's something we've actually been looking for. <span class=\"hl-blue\">Yes, please include CMS in the proposal</span>. Our Federal billing cycle runs about 45 days — centralised collections would really help us manage cash flow." },
+    { "time": "03:45", "speaker": "RM", "text": "How does your revenue model work — direct contracts or through a subcontracting network?" },
+    { "time": "03:51", "speaker": "Borrower", "text": "Entirely <span class=\"hl\">direct-to-client</span> — no subcontractor or dealer network. About <span class=\"hl\">65% Federal and Municipal</span> — FHWA, TxDOT, Army Corps of Engineers — and 35% private developers. Milestone-based billing on all contracts." },
+    { "time": "04:10", "speaker": "RM", "text": "Any affiliated entities or subsidiaries we should include in the credit package?" },
+    { "time": "04:15", "speaker": "Borrower", "text": "Yes — <span class=\"hl\">Hargrove Holdings LLC</span> is the promoter holding entity. And we have <span class=\"hl\">HG-Constructors, a 51% JV</span> set up for a Phoenix mixed-use development. That's ring-fenced — no cross-default exposure. No other affiliates." },
+    { "time": "04:28", "speaker": "RM", "text": "Perfect. On next steps — <span class=\"hl-green\">I'll send you a formal document checklist by end of today</span>. Can we set up a credit meeting with my team and your CFO <span class=\"hl-green\">this Friday at 11 AM</span>?" },
+    { "time": "04:42", "speaker": "Borrower", "text": "Friday works great. <span class=\"hl-green\">Our CFO David Walsh</span> will be on that call too. We're keen to move quickly given our <span class=\"hl\">June 2026 disbursement deadline</span>." },
+    { "time": "04:58", "speaker": "RM", "text": "Confirmed. I'll send the calendar invite and document checklist right away. Thank you Mr. Hargrove — talk Friday." }
+  ],
+  "transcriptMeta": {
+    "duration": "5m 12s",
+    "confidence": "96%"
+  }
+}

@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
-import LeadInitiationPage from "../pages/LeadInitiationPage";
+import CallToTextAgentPage from "../pages/CallToTextAgentPage";
 
 export default function AppRoutes() {
   return (
     <Routes>
       <Route element={<MainLayout />}>
-        <Route path="/" element={<LeadInitiationPage />} />
+        <Route path="/" element={<CallToTextAgentPage />} />
       </Route>
     </Routes>
   );

@@ -369,4 +369,12 @@ body { margin:0; font-family: Arial, sans-serif; background:#e8eaed; }
 .mt-conf-orange { background:#fff3e0; color:#e65100; border-color:#ffcc80; }
 
 /* ── Waveform wrap in live recording ── */
+
+/* ── Standalone Call to Text Agent Page ── */
+.ctt-page { width:100%; height:100vh; background:#f7f9fc; display:flex; flex-direction:column; overflow:hidden; }
+.ctt-body { flex:1; overflow-y:auto; }
+.ctt-body::-webkit-scrollbar { width:5px; }
+.ctt-body::-webkit-scrollbar-thumb { background:#c0c8d8; border-radius:3px; }
+.ctt-tab-content { animation:ctt-fade-in .25s ease; }
+@keyframes ctt-fade-in { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
 .mt-live-waveform-wrap { flex:1; position:relative; height:34px; background:#f8fafc; border-radius:4px; overflow:hidden; border:1px solid #e8ecf5; }

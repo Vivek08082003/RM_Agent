@@ -377,4 +377,18 @@ body { margin:0; font-family: Arial, sans-serif; background:#e8eaed; }
 .ctt-body::-webkit-scrollbar-thumb { background:#c0c8d8; border-radius:3px; }
 .ctt-tab-content { animation:ctt-fade-in .25s ease; }
 @keyframes ctt-fade-in { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+
+/* Upload screen */
+.ctt-upload-screen { display:flex; flex-direction:column; align-items:center; justify-content:center; padding:60px 20px; gap:12px; min-height:400px; }
+.ctt-upload-icon { font-size:48px; }
+.ctt-upload-title { font-size:18px; font-weight:700; color:#1a3a6b; }
+.ctt-upload-sub { font-size:13px; color:#888; margin-bottom:8px; }
+.ctt-upload-btn { padding:10px 24px; background:#1565c0; color:#fff; border:none; border-radius:4px; font-family:inherit; font-size:13px; font-weight:600; cursor:pointer; }
+.ctt-upload-btn:hover { background:#0d47a1; }
+.ctt-file-info { width:100%; max-width:360px; margin-top:8px; }
+.ctt-file-name { font-size:12px; font-style:italic; margin-bottom:4px; }
+.ctt-fetch-btn { margin-top:10px; padding:10px 24px; background:#2e7d32; color:#fff; border:none; border-radius:4px; font-family:inherit; font-size:13px; font-weight:700; cursor:pointer; animation:ctt-fade-in .3s ease; }
+.ctt-fetch-btn:hover { background:#1b5e20; }
+.ctt-new-btn { background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.3); color:#fff; padding:4px 12px; border-radius:4px; font-size:11px; font-weight:600; cursor:pointer; font-family:inherit; }
+.ctt-new-btn:hover { background:rgba(255,255,255,.25); }
 .mt-live-waveform-wrap { flex:1; position:relative; height:34px; background:#f8fafc; border-radius:4px; overflow:hidden; border:1px solid #e8ecf5; }

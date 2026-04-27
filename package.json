@@ -1,10 +1,11 @@
 {
   "name": "los-react-project",
+  "homepage": "https://bankingproducts.newgensoftware.net/rm_agent",
   "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build && cd dist && jar -cvf rm_agent.war ."
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.0",
